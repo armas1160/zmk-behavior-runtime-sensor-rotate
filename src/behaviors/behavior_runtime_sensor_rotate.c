@@ -93,7 +93,7 @@ ZMK_CUSTOM_SETTING_ARRAY_DEFINE(rsr_bindings, RSR_SUBSYS, RSR_BINDINGS_KEY,
                                 ZMK_CUSTOM_SETTING_VALUE_TYPE_BYTES, RSR_GRID_SIZE, RSR_GRID_SIZE,
                                 rsr_binding_defaults, ZMK_CUSTOM_SETTING_CONFIDENTIALITY_RPC_PUBLIC,
                                 ZMK_CUSTOM_SETTING_PERMISSION_UNSECURE,
-                                ZMK_CUSTOM_SETTING_PERMISSION_UNSECURE,
+                                ZMK_CUSTOM_SETTING_PERMISSION_SECURE,
                                 ZMK_CUSTOM_SETTING_NO_CONSTRAINT);
 
 #endif /* ZMK_KEYMAP_HAS_SENSORS */
